@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		634A8BCD1A71333600F26528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BCC1A71333600F26528 /* AppDelegate.swift */; };
-		634A8BCF1A71333600F26528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BCE1A71333600F26528 /* ViewController.swift */; };
+		634A8BCF1A71333600F26528 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BCE1A71333600F26528 /* LandingViewController.swift */; };
 		634A8BD21A71333600F26528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD01A71333600F26528 /* Main.storyboard */; };
 		634A8BD41A71333600F26528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD31A71333600F26528 /* Images.xcassets */; };
 		634A8BD71A71333600F26528 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD51A71333600F26528 /* LaunchScreen.xib */; };
 		634A8BE31A71333600F26528 /* PedalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BE21A71333600F26528 /* PedalTests.swift */; };
+		634A8BF21A71371600F26528 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF11A71371600F26528 /* SignUpViewController.swift */; };
+		634A8BF31A71371600F26528 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF11A71371600F26528 /* SignUpViewController.swift */; };
+		634A8BF51A71372200F26528 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF41A71372200F26528 /* SignInViewController.swift */; };
+		634A8BF61A71372200F26528 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF41A71372200F26528 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +32,16 @@
 /* Begin PBXFileReference section */
 		634A8BC71A71333600F26528 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A8BCB1A71333600F26528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		634A8BCC1A71333600F26528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		634A8BCE1A71333600F26528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		634A8BCC1A71333600F26528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		634A8BCE1A71333600F26528 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandingViewController.swift; path = ../../LandingViewController.swift; sourceTree = "<group>"; };
 		634A8BD11A71333600F26528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634A8BD31A71333600F26528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		634A8BD61A71333600F26528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		634A8BDC1A71333600F26528 /* PedalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A8BE11A71333600F26528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634A8BE21A71333600F26528 /* PedalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalTests.swift; sourceTree = "<group>"; };
+		634A8BF11A71371600F26528 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		634A8BF41A71372200F26528 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,7 @@
 		634A8BC91A71333600F26528 /* Pedal */ = {
 			isa = PBXGroup;
 			children = (
-				634A8BCC1A71333600F26528 /* AppDelegate.swift */,
-				634A8BCE1A71333600F26528 /* ViewController.swift */,
+				634A8BEC1A71344B00F26528 /* Source */,
 				634A8BD01A71333600F26528 /* Main.storyboard */,
 				634A8BD31A71333600F26528 /* Images.xcassets */,
 				634A8BD51A71333600F26528 /* LaunchScreen.xib */,
@@ -110,6 +115,49 @@
 				634A8BE11A71333600F26528 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		634A8BEC1A71344B00F26528 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				634A8BF01A71346300F26528 /* Bootstrapping */,
+				634A8BED1A71344B00F26528 /* Controllers */,
+				634A8BEE1A71344B00F26528 /* Models */,
+				634A8BEF1A71344B00F26528 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		634A8BED1A71344B00F26528 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				634A8BCE1A71333600F26528 /* LandingViewController.swift */,
+				634A8BF11A71371600F26528 /* SignUpViewController.swift */,
+				634A8BF41A71372200F26528 /* SignInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		634A8BEE1A71344B00F26528 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		634A8BEF1A71344B00F26528 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		634A8BF01A71346300F26528 /* Bootstrapping */ = {
+			isa = PBXGroup;
+			children = (
+				634A8BCC1A71333600F26528 /* AppDelegate.swift */,
+			);
+			path = Bootstrapping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634A8BCF1A71333600F26528 /* ViewController.swift in Sources */,
+				634A8BF51A71372200F26528 /* SignInViewController.swift in Sources */,
+				634A8BF21A71371600F26528 /* SignUpViewController.swift in Sources */,
+				634A8BCF1A71333600F26528 /* LandingViewController.swift in Sources */,
 				634A8BCD1A71333600F26528 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A8BF31A71371600F26528 /* SignUpViewController.swift in Sources */,
 				634A8BE31A71333600F26528 /* PedalTests.swift in Sources */,
+				634A8BF61A71372200F26528 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

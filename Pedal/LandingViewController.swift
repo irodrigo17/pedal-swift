@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  ViewController.swift
 //  Pedal
 //
 //  Created by Ignacio Rodrigo on 1/22/15.
@@ -8,10 +8,9 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class LandingViewController: UIViewController {
 
-    var window: UIWindow?
+    
 
 }
 
