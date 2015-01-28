@@ -1,2 +1,18 @@
+# OS X generated files
 .DS_Store
+
+
+# XCode generated files
+
 Pedal.xcodeproj/xcuserdata/
+
+
+# Bundler generated files
+
+Gemfile.lock
+
+# CocoaPods generated files
+
+Pedal.xcworkspace/
+Pods/
+Podfile.lock
