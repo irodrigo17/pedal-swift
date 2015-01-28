@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633981241A72EDEE0093C4CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633981231A72EDEE0093C4CC /* User.swift */; };
+		633981251A72EDEE0093C4CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633981231A72EDEE0093C4CC /* User.swift */; };
+		633981271A72F6F30093C4CC /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633981261A72F6F30093C4CC /* TextFieldCell.swift */; };
+		633981281A72F6F30093C4CC /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633981261A72F6F30093C4CC /* TextFieldCell.swift */; };
 		634A8BCD1A71333600F26528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BCC1A71333600F26528 /* AppDelegate.swift */; };
 		634A8BCF1A71333600F26528 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BCE1A71333600F26528 /* LandingViewController.swift */; };
 		634A8BD21A71333600F26528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD01A71333600F26528 /* Main.storyboard */; };
 		634A8BD41A71333600F26528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD31A71333600F26528 /* Images.xcassets */; };
 		634A8BD71A71333600F26528 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634A8BD51A71333600F26528 /* LaunchScreen.xib */; };
-		634A8BE31A71333600F26528 /* PedalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BE21A71333600F26528 /* PedalTests.swift */; };
 		634A8BF21A71371600F26528 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF11A71371600F26528 /* SignUpViewController.swift */; };
 		634A8BF31A71371600F26528 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF11A71371600F26528 /* SignUpViewController.swift */; };
 		634A8BF51A71372200F26528 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF41A71372200F26528 /* SignInViewController.swift */; };
 		634A8BF61A71372200F26528 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A8BF41A71372200F26528 /* SignInViewController.swift */; };
+		637A56DC1A77E07B001DA243 /* DictionaryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A56DB1A77E07B001DA243 /* DictionaryRepresentable.swift */; };
+		637A56DD1A77E07B001DA243 /* DictionaryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A56DB1A77E07B001DA243 /* DictionaryRepresentable.swift */; };
+		637A56E41A782C77001DA243 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A56E31A782C77001DA243 /* UserTests.swift */; };
+		637A56E61A782C9C001DA243 /* TestFieldCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A56E51A782C9C001DA243 /* TestFieldCellTests.swift */; };
+		637A56E81A783153001DA243 /* SignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A56E71A783153001DA243 /* SignUpViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		633981231A72EDEE0093C4CC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		633981261A72F6F30093C4CC /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
 		634A8BC71A71333600F26528 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A8BCB1A71333600F26528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634A8BCC1A71333600F26528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +49,12 @@
 		634A8BD61A71333600F26528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		634A8BDC1A71333600F26528 /* PedalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634A8BE11A71333600F26528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		634A8BE21A71333600F26528 /* PedalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalTests.swift; sourceTree = "<group>"; };
 		634A8BF11A71371600F26528 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		634A8BF41A71372200F26528 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		637A56DB1A77E07B001DA243 /* DictionaryRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryRepresentable.swift; sourceTree = "<group>"; };
+		637A56E31A782C77001DA243 /* UserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		637A56E51A782C9C001DA243 /* TestFieldCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFieldCellTests.swift; sourceTree = "<group>"; };
+		637A56E71A783153001DA243 /* SignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +116,9 @@
 		634A8BDF1A71333600F26528 /* PedalTests */ = {
 			isa = PBXGroup;
 			children = (
-				634A8BE21A71333600F26528 /* PedalTests.swift */,
+				637A56E01A782C60001DA243 /* Controllers */,
+				637A56E11A782C60001DA243 /* Models */,
+				637A56E21A782C60001DA243 /* Views */,
 				634A8BE01A71333600F26528 /* Supporting Files */,
 			);
 			path = PedalTests;
@@ -121,9 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				634A8BF01A71346300F26528 /* Bootstrapping */,
-				634A8BED1A71344B00F26528 /* Controllers */,
 				634A8BEE1A71344B00F26528 /* Models */,
 				634A8BEF1A71344B00F26528 /* Views */,
+				634A8BED1A71344B00F26528 /* Controllers */,
+				637A56D91A77E030001DA243 /* Helpers */,
+				637A56DA1A77E030001DA243 /* Protocols */,
+				637A56D81A77E030001DA243 /* Categories */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -141,6 +159,7 @@
 		634A8BEE1A71344B00F26528 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				633981231A72EDEE0093C4CC /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +167,7 @@
 		634A8BEF1A71344B00F26528 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				633981261A72F6F30093C4CC /* TextFieldCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +178,52 @@
 				634A8BCC1A71333600F26528 /* AppDelegate.swift */,
 			);
 			path = Bootstrapping;
+			sourceTree = "<group>";
+		};
+		637A56D81A77E030001DA243 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		637A56D91A77E030001DA243 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		637A56DA1A77E030001DA243 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				637A56DB1A77E07B001DA243 /* DictionaryRepresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		637A56E01A782C60001DA243 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				637A56E71A783153001DA243 /* SignUpViewControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		637A56E11A782C60001DA243 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				637A56E31A782C77001DA243 /* UserTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		637A56E21A782C60001DA243 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				637A56E51A782C9C001DA243 /* TestFieldCellTests.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +328,11 @@
 			files = (
 				634A8BF51A71372200F26528 /* SignInViewController.swift in Sources */,
 				634A8BF21A71371600F26528 /* SignUpViewController.swift in Sources */,
+				637A56DC1A77E07B001DA243 /* DictionaryRepresentable.swift in Sources */,
 				634A8BCF1A71333600F26528 /* LandingViewController.swift in Sources */,
+				633981241A72EDEE0093C4CC /* User.swift in Sources */,
 				634A8BCD1A71333600F26528 /* AppDelegate.swift in Sources */,
+				633981271A72F6F30093C4CC /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637A56E41A782C77001DA243 /* UserTests.swift in Sources */,
+				633981251A72EDEE0093C4CC /* User.swift in Sources */,
+				637A56E81A783153001DA243 /* SignUpViewControllerTests.swift in Sources */,
 				634A8BF31A71371600F26528 /* SignUpViewController.swift in Sources */,
-				634A8BE31A71333600F26528 /* PedalTests.swift in Sources */,
+				637A56DD1A77E07B001DA243 /* DictionaryRepresentable.swift in Sources */,
 				634A8BF61A71372200F26528 /* SignInViewController.swift in Sources */,
+				633981281A72F6F30093C4CC /* TextFieldCell.swift in Sources */,
+				637A56E61A782C9C001DA243 /* TestFieldCellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +531,7 @@
 				634A8BE81A71333600F26528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634A8BE91A71333600F26528 /* Build configuration list for PBXNativeTarget "PedalTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +540,7 @@
 				634A8BEB1A71333600F26528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
